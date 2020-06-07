@@ -1,0 +1,14 @@
+<?php
+/**
+ * Copyright © Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+// Exercise: 1.4.2.2
+// Skeleton
+use Magento\Framework\Component\ComponentRegistrar;
+
+ComponentRegistrar::register(
+    ComponentRegistrar::MODULE,
+    'Unit1_JsDataProviderSkeleton',
+    __DIR__
+);
